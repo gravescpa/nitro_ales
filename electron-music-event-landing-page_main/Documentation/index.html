@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>:: Documentation - By Saptarang ::</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".navbar-default">
+<section id="wrapper" class="clearfix">
+  <header  id="menu">
+    <div  class="container clearfix">
+      <div class="row">
+        <div class="col-md-9 col-sm-12 authorname"> <a href="index.html" title="Saptarang" class="brand"><img src="img/logo.png" alt="Saptarang" /> Saptarang</a> <small class="tagline"> Premium Website Templates</small> </div>
+        <div class="col-md-3 col-sm-12 text-right"> <a href="http://themeforest.com/user/saptarang?ref=saptarang" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-th-list"></i> View Portfolio</a> </div>
+      </div>
+    </div>
+    <div class="shaded">
+      <div class="container">
+        <h1 class="text-center">Electron Music Event Landing Page Template Documentation </h1>
+      </div>
+    </div>
+    <section id="navigation" data-spy="affix">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container"> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Menu</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active dropdown"><a href="#features" class="dropdown-toggle" data-toggle="dropdown">Features</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Customization <b class="caret"></b></a>
+              		<ul class="dropdown-menu">
+                      <li><a href="#slider">Slider</a></li>
+                      <li><a href="#counter">Counter setting</a></li>
+                      <li><a href="#owlcarousel">OWL Carousel setting</a></li>
+                      <li><a href="#guest">Changing Guest image</a></li>
+                      <li><a href="#color-scheme">Color Scheme</a></li>
+                      <li><a href="#contact">Contact Email</a></li>
+                      <li><a href="#subscribe">Subscribe Email</a></li>
+                    </ul>
+              </li>
+              <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Change <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                	<li><a href="#google-font">Use Google Web Font</a></li>
+                  	<li><a href="#google-map">Changing google map address</a></li>
+                  	<li><a href="#fontawesome">Using Font Awesome</a></li>
+                    <li><a href="#image">Guideline for image sizes</a></li>
+                    <li><a href="#addIcons">changing favicon and apple icon</a></li>
+                </ul>
+              </li>
+              <li><a href="#psd-given">PSD Included</a></li>
+              <li><a href="#credits">Credits</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> 
+        </div>
+        <!-- /.container-fluid --> 
+      </nav>
+    </section>
+  </header>
+  <section id="content" class="content-wrapper">
+    <div class="container">
+      <h3>What is this?</h3>
+      <p> This documentation is created to help/assist in the customization of the html template offered in this download. I've tried to cover all the points that I could think of that'll help you. If you have more questions or issues regarding this template, please send me a message through my <a href="http://www.themeforest.net/user/saptarang?ref=saptarang" target="_blank">ThemeForest Profile Page</a> and I'll try to get in touch with you as soon as possible. Certain modifications may need extra work that'll be charged for an extra fee depending on the task and the time that'll be required to do the work.</p>
+    <p>Thank You for downloading this template. I hope you like it :) and <strong>Do Not Forget</strong> to rate this file which <strong>I will accept as a token of appreciation!</strong></p>
+      
+      <section id="features" class="section-block">
+        <h3>Features</h3>
+            <ul class="list">
+              <li>One Page Template</li>
+              <li>HTML 5 &amp; CSS3</li>
+              <li>jQuery/AJAX</li>
+              <li>Twitter Bootstrap 3 Framework</li>
+              <li>Responsive Layout</li>
+              <li>Smooth Page Scrolling</li>
+              <li>Font Awesome icons + Glyphicons from Bootstrap3</li>
+              <li>Working Simple Ajax Contact Form (Get details on your email)</li>
+              <li>Working Subscribe form (get details on your email)</li>
+              <li>Modern Browsers Compliant</li>
+              <li>Easy to Work with.</li>
+              <li>PSD included</li>
+            </ul>
+      </section>
+      
+      <section id="slider" class="section-block">
+        <h3>Slider settings</h3>
+        	<h5>Changing Slideshow speed:</h5>
+            <ul class="list">
+              <li><strong>Normal Menu: Main Slider</strong>: open <strong>master.js (js > master.js)</strong>, line number <strong>39</strong>, "Play : 7000,"</li>
+              <li><strong>Normal Menu: Testimonial Slider</strong>: open <strong>master.js (js > master.js)</strong>, line number <strong>83</strong>, "interval:8000" change interval value to set speed of slideshow.</li>
+              <li><strong>Off Canvas Menu: Main Slider</strong>: open <strong>master.js (js > master.js)</strong>, line number <strong>39</strong>, "interval : 7000,"</li>
+              <li><strong>Off Canvas Menu: Testimonial Slider</strong>: open <strong>master.js (js > master.js)</strong>, line number <strong>100</strong>, "interval:8000" change interval value to set speed of slideshow.</li>
+            </ul>
+            <h5>Changing Slideshow texture:</h5>
+          <p>Open style.css and change image name from <strong>opaqueBG.png</strong> to <strong>body-bg1.png</strong> up to <strong>body-bg6.png</strong></p>
+          <ul class="list">
+          <li>Normal Menu: Line no 695</li>
+          <li>Off canvas Menu: Line no 715</li>
+          </ul>
+        
+      </section>
+      
+      <section id="counter"  class="section-block">
+        <h3>How To set Counter Date?</h3>
+        <p>Go to <strong>/js</strong> directory and open <strong>master.js</strong>, find code at <strong>line no: 44 (Normal Menu layout) or 62 (Canvas menu layout)</strong> and change date and time</p>
+        <pre>// Counter
+        var endDate = "June 7, 2015 15:00:00";
+        </pre>
+      </section>
+      
+      <section id="owlcarousel"  class="section-block">
+        <h3>OWL Carousel  setting</h3>
+        <p>You can find all options for setting here : <a href="http://owlgraphic.com/owlcarousel/index.html#customizing" target="_blank">Click here</a></p>
+      </section>
+  
+      <section id="guest" class="section-block">
+        <h3>Changing special guest image</h3>
+        	<p>You just have to take 1000px x 800px size jpg image and replace in <strong>img</strong> folder with name <strong>special_guest.jpg</strong></p>
+      </section>
+        
+      <section id="color-scheme" class="section-block">
+        <h3>Changing Color Scheme of your website is very easy</h3>
+        <h5>If you want some different color scheme then open <strong>color.css</strong></h5>
+        <ul class="list">
+          <li>There are sections for <strong>colors and background-colors</strong> used in template.</li>
+          <li>We have placed all classes affected by <strong>color scheme</strong> here. So you can change colors here directly</li>
+          <li>You have to use <strong>hex</strong> codes but some places you need to use <strong>rgba</strong> values of respective color (hex to rgba converter: <a href="http://hex2rgba.devoth.com" title="Hex to rgba converter" target="_blank">Click here</a>)</li>
+        </ul>
+      </section>
+      
+      <section id="contact" class="section-block">
+        <h3>Contact Form Options</h3>
+      	
+        <h5>Contact Email Setting Options</h5>
+        <p>You can edit following options in the Contact form. Go to <strong>template directory > </strong> <strong>Form</strong> and open <strong>Contact.php</strong> Under<strong> EDITABLE OPTIONS</strong> set the following:</p>
+        <ul class="list">
+          <li><strong>$receiving_email_address:</strong> This is the email address where you want to receive emails submitted via Contact form.</li>
+          <li><strong>$receiving_email_address_name:</strong> This is the name i.e. associated with your email address account.</li>
+          <li><strong>$custom_subject:</strong> This is the subject line for the requests submitted via Contact form.</li>
+        </ul>
+        <hr>
+        <h5>Contact Success Message Options:</h5>
+        In this section you can edit following:
+        Go to <strong>template directory</strong> > <strong>js</strong> and open <strong>custom.js</strong> Under Contact FORM set the following:
+        <ul class="list">
+          <li><strong>submitMessage:</strong> - This is the success title to display after submitting the form successfully.</li>
+          <li><strong>successParagraph:</strong> - This is the message to display after submitting the form successfully.</li>
+          <li><strong>successBoxColor:</strong> - This is the color of the success message box after submitting the form successfully.</li>
+          <li><strong>successBoxBorderStyle:</strong> - The border style of the success message box i.e. Dashed, Solid, Dotted, Double</li>
+          <li><strong>successBox_Border_Color:</strong> - This is the Border color of the success message box.</li>
+          <li><strong>textColor:</strong> - This is the text color of the success message.</li>
+        </ul>
+      </section>
+     
+      
+      <section id="subscribe" class="section-block">
+      		<h3>Subscribe Email Setting Options</h3>
+            <p>You can edit following options in the Subscribe form. Go to <strong>template directory > </strong> <strong>Form</strong> and open <strong>subscribe.php</strong> Under<strong> EDITABLE OPTIONS</strong> set the following:</p>
+                    <ul class="list">
+                      <li><strong>$receiving_email_address:</strong> This is the email address where you want to receive emails submitted via Contact form.</li>
+                      <li><strong>$custom_subject:</strong> This is the subject line for the requests submitted via Contact form.</li>
+                    </ul>
+                    <hr>
+                    <h5>Subscribe Success Message Options:</h5>
+                    In this section you can edit following:
+                    Go to <strong>template directory</strong> > <strong>js</strong> and open <strong>custom.js</strong> Under SUBSCRIBE FORM set the following:
+                    <ul class="list">
+                      <li><strong>var sub_submitMessage:</strong> - This is the success title to display after submitting the form successfully.</li>
+                      <li><strong>var sub_successBoxColor:</strong> - This is the color of the success message box after submitting the form successfully.</li>
+                      <li><strong>var sub_successBoxBorderStyle:</strong> - The border style of the success message box i.e. Dashed, Solid, Dotted, Double</li>
+                      <li><strong>var sub_successBox_Border_Color:</strong> - This is the Border color of the success message box.</li>
+                      <li><strong>var sub_textColor:</strong> - This is the text color of the success message.</li>
+                    </ul>
+                    
+                    <!--<h3>If you are going to use MailChimp for Subscribe:</h3>
+                    <p>Code for using Mailchimp is already there you just have to remove current form and enable Mailchimp form. Then add your action link to form code where it says YOUR_ACTION_LINK. Below is guide to get<strong> Mailchimp Action Link</strong></p>
+                    <a class="btn btn-primary" href="img/mailchimp-sign-up-form.pdf" title="View PDF">View Guide to get action link from mailchimp</a>-->
+      </section>
+      
+      <section id="google-font" class="section-block clearfix">
+            <h3>How To Use Google Web Font?</h3>
+            <p>There are two important code snippets you need to replace the google font for your website. Please follow the steps below.</p>
+            <ul class="list">
+              <li>Go To: <a href="http://www.google.com/fonts/" title="Google Web Fonts" target="_blank">Google Web Fonts</a></li>
+              <li>Follow these steps:<br>
+                <img src="img/google-fonts.jpg" alt="step 1" style="border:#ccc 1px solid"></li>
+              <li>Then open <strong>style.css</strong> and change font name on line <strong>36, 51 and 62</strong></li>
+            </ul>
+      </section>
+      
+      
+      <section id="google-map" class="section-block clearfix">
+      	<h3>Changing google map address</h3>
+        <ul class="list">
+        	<li>open direction.js</li>
+            <li>Go to Line 4 and  35</li>
+            <li>change co-ordinates related to your address i.e <strong>37.791649,-122.394395 - Latitude, Longitude</strong> respectively </li>
+            <li>Dont know your co-ordinates? <a href="http://itouchmap.com/latlong.html" target="_blank">Click here</a> and check for your address</li>
+        </ul>
+      </section>
+      
+      <section id="fontawesome" class="section-block clearfix">
+        <h3>Using Font Awesome</h3>
+        <p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> gives you more than 300 scalable vector icons.</p>
+        <ul class="list">
+          <li>Choose your icon here: <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Link</a> and click on that icon to get the code</li>
+          <li>Here are examples to resize, rotate  icons: <a href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank">Link</a></li>
+          <li>To use Font Awesome with Photoshop follow this Tutorial: <a href="http://www.tricky-photoshop.com/font-awesome-photoshop/" target="_blank">Link</a></li>
+        </ul>
+      </section>
+      
+      <section id="image" class="section-block clearfix">
+        <h3>Guideline for image sizes:</h3>
+        <ul class="list">
+          <li>Company Logo: <br>
+          	<ul>
+          		<li>Normal Menu: 184(w) x 62(H) px (recommended)</li>
+          		<li>Off Canvas Menu: 200(w) x 100(H) px (recommended)</li>
+          	</ul>
+            </li>
+          <li>Images for <strong>Main Slider</strong>: 1200 x 675 px Min (Ratio: 16:9)</li>
+          <li>Artist: 250px x 350px</li>
+          <li>Special : 1000px x 800px</li>
+          <li>Lineup : 400px x 400px</li>
+          <li>About Us Image : 725px x 500px</li>
+        </ul>
+      </section>
+      
+      <section id="addIcons">
+    <h3>Add Favicon and Apple Icons</h3>
+    <p>We have provided seperate PSD for favicon and apple icons</p>
+    <ul>
+      <li><strong>Apple Icons</strong>: Create images (png) for icons using PSD and upload/replace in <strong>img</strong> &gt; <strong>icons</strong></li>
+      <li><strong>Favicon</strong>: Ther are lots of ways to generate favicon on internet or using photoshop but I always prefer and use <a href="http://www.favicon-generator.org/" target="_blank">click here</a><br>
+        Create 100x100px image using PSD and follow instructions on website, then replace <strong>favicon.ico</strong> in <strong>img</strong> &gt; <strong>icons</strong> </li>
+    </ul>
+  </section>
+      
+      <section id="psd-given" class="section-block">
+      		<h3>PSD Included</h3>
+            <p>Following PSDS are given in Download file</p>
+            <ul class="list">
+              <li>PSD for both layout</li>
+              <li>Favicon and Apple icon</li>
+              <li>Main Slider, Special Guest, LineUp, Artist and About Us just for size reference only.</li>
+            </ul>
+            <p>Below is the basic smart object editing in Photoshop. You can follow the same process for working with <strong>Smart Objects</strong> in Photoshop.</p>
+            <p><img src="img/basics-ps.jpg" alt="Basic Ps Editing"></p>
+      </section>
+       <p>AND You're DONE!</p><!--
+      <p>This way all posts formats work. We've seen how they work and how to work with them for this theme.</p>-->
+      
+      <section id="credits" class="section-block">
+      		<h3>Credits/Attributions</h3>
+        <p> Thanks so much to</p>
+        <ul class="list">
+          <li><a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap 3</a></li>
+          <li><a href="http://jquery.com" target="_blank">jQuery</a> By jQuery Foundation, Inc.</li>
+          <li><a href="http://picjumbo.com/" title="Free Hi-resolution Photos" target="_blank">Picjumbo</a></li>
+          <li><a href="http://nicinabox.com/superslides/#1" title="Superslides">superslide</a></li>
+          <li><a href="http://owlgraphic.com/owlcarousel/" title="owlcarousel">owlcarousel</a></li>
+          <li>Pixel Perfect Icons By: <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a></li>
+          <li>Free Google Web Font: <a href="https://www.google.com/fonts#UsePlace:use/Collection:Oswald" target="_blank">Oswald</a> and <a href="https://www.google.com/fonts#UsePlace:use/Collection:Raleway" target="_blank">Raleway</a></li>
+		  <li>Images by <a href="http://jamesallardice.github.io/Placeholders.js/" target="_blank">Placeholders.js</a></li>
+		  <li><a target="_blank" href="https://github.com/rendro/countdown">Countdown Script By CoffeeScript</a></li>
+        </ul>
+      </section>
+     
+      <section class="section-block">
+      	<h3>THANK YOU FOR PURCHASING THIS template.</h3>
+        <p>I hope you enjoyed working with this template. Please feel free to ask for any queries/questions you may have using a <a href="http://themeforest.com/user/saptarang?ref=saptarang" target="_blank">message button</a>.</p>
+        
+       <div class="text-center"> 
+        <div class="rate">
+                		<i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i><br>
+        				<h4>Please RECOMMEND this template if you like it!</h4>
+        </div>
+      </div>
+      
+      </section>
+      
+       
+    </div>
+    <!-- content end --> 
+    
+  </section>
+  <!-- #content end--> 
+</section>
+<!--parent-wrapper-end--> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/script.js"></script> 
+<script type="text/javascript">
+	  WebFontConfig = {
+		google: { families: [ 'Open+Sans:300italic,400italic,700italic,400,300,700:latin' ] }
+	  };
+	  (function() {
+		var wf = document.createElement('script');
+		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
+	  })(); 
+   </script>
+</body>
+</html>
