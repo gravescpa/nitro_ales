@@ -41,7 +41,7 @@ jQuery( document ).ready( function( $ ) {
 	});
 	
 	// Counter
-	var endDate = "August 7, 2017 22:00:00";
+	var endDate = "November 11, 2017 12:00:00";
 	
 	$('.countdown.styled').countdown({
 	  date: endDate,
