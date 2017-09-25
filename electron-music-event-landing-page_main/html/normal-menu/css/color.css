@@ -18,23 +18,23 @@ Description: A default stylesheet for Electron Music Event Landing Page Template
 /* ========= PRIMARY ======== */
 /* ======================= */
 a, .price span, h1 span, .subscribe input[type=submit], i.prime, ul.list-default li:before, .offer h1, .tab-content h3 i, h1 span, h2 span, #upcoming .item .info i, .visible .navbar-default .navbar-nav > li > a i, .visible .navbar-nav li .sub-nav li a i {
-	color: #bd2871;
+	color: #c70000;
 }
 .prime .dblBorder:hover, .prime .dblBorder:hover .dblBorderChild {
-	border: #bd2871 1px solid;
+	border: #c70000 1px solid;
 }
 #subscribeForm input[type="email"] {
-	border-color: rgba(189, 40, 112, 0.8);
+	border-color: #c70000;
 }
 /* == Background PRIMARY == */
 #slides h3, .btn-primary, .BGprime, h3 span, .option li:hover, .btn-primary, .btn-dark:hover, a.top, .sqaureIconPrime, .owl-theme .owl-controls .owl-buttons div, #upcoming .item:hover, header.BGlight .navbar-default .navbar-nav > li:hover, .navbar-nav li .sub-nav li:hover a, .rightnav, .eventData .btn:hover, #contact_form input[type="submit"]:hover, .subscribe input[type=submit] {
-	background-color: #bd2871;
+	background-color: #c70000;
 }
 /* == use rgba values here == */
 .contactForm .form-control:focus, .sqaureIconPrime, .subscribe input[type=submit] {
-	-webkit-box-shadow: 0 0 0 0.26em rgba(189, 40, 112, 0.5);
-	-moz-box-shadow: 0 0 0 0.26em rgba(189, 40, 112, 0.5);
-	box-shadow: 0 0 0 0.26em rgba(189, 40, 112, 0.5);
+	-webkit-box-shadow: 0 0 0 0.26em #cc6633;
+	-moz-box-shadow: 0 0 0 0.26em #cc6633;
+	box-shadow: 0 0 0 0.26em #cc6633;
 }
 .BGprime.opaque {
 	background-color: rgba(189, 40, 112, 0.8);
@@ -43,7 +43,7 @@ a, .price span, h1 span, .subscribe input[type=submit], i.prime, ul.list-default
 /* ======= SECONDARY ======= */
 /* ======================= */
 #celebs .item i, .main-menu li:hover > a i, #venue strong, #venue label {
-	color: #ff9000;
+	color: #ff9900;
 }
 .secondary .dblBorder:hover, .secondary .dblBorder:hover .dblBorderChild {
 	border: #ff9000 1px solid;
