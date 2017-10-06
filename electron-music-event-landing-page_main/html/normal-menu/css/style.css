@@ -694,7 +694,7 @@ header.BGlight .navbar-default .navbar-nav > li:hover > a, header.BGlight .navba
 }
 #slides .slide .slide-caption {
 	display: block;
-	background: url(../img/opaqueBG.png) repeat 0 0;
+	background: url(../img/body-BG1.png) repeat 0 0;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -900,7 +900,8 @@ header.BGlight .navbar-default .navbar-nav > li:hover > a, header.BGlight .navba
 	margin-left: 1.65em;
 }
 .guest {
-	background: url(../img/special_guest.jpg) no-repeat left center;
+	/* background: url(../img/special_guest.jpg) no-repeat left center; */
+	background-color: #ff9900;
 	min-height: 30em;
 }
 .guest strong {
