@@ -900,8 +900,8 @@ header.BGlight .navbar-default .navbar-nav > li:hover > a, header.BGlight .navba
 	margin-left: 1.65em;
 }
 .guest {
-	/* background: url(../img/special_guest.jpg) no-repeat left center; */
-	background-color: #ff9900;
+	background: url(../img/special_guest.jpg) no-repeat left center;
+	/* background-color: #ff9900; */
 	min-height: 30em;
 }
 .guest strong {
